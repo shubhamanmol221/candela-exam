@@ -1,0 +1,390 @@
+{
+	"candidate_name" : "chebrolu manoj",
+	"candidate_email" : "manojchebrolu72@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:38:01.844655+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int r=sc.nextInt();\n        int c=sc.nextInt();\n        int[][] arr=new int[r][c];\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                arr[i][j]=sc.nextInt();\n            }\n        }\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                int temp=arr[i][j];\n                arr[i][j]=arr[j][i];\n                arr[j][i]=temp;\n            }\n        }\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                System.out.print(arr[i][j]);\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Jerripotula Sreeja",
+	"candidate_email" : "sreejajerripotula@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:38:06.403184+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int n=sc.nextInt();\n        int m=sc.nextInt();\n        int []arr=new int[5];\n        int [][] matrix =new int[n][m];\n        for(int i=0;i<n;i++)\n        {\n            for(int j=0;j<m;j++)\n            {\n                matrix[i][j]=sc.nextInt();\n            }\n        }\n        int [][] ans=new int[m][n];\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n                if (i==j)\n                {\n                    ans[i][j]=matrix[i][j];\n                }\n                else\n                {\n                    ans[i][j]=matrix[j][i];\n                }\n           \n            }\n        }\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n                System.out.print(ans[i][j]+\" \");\n            }\n            System.out.println(\"\");\n        }\n        \n    }\n}\n"
+}
+{
+	"candidate_name" : "chebrolu manoj",
+	"candidate_email" : "manojchebrolu72@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:38:33.140902+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int r=sc.nextInt();\n        int c=sc.nextInt();\n        int[][] arr=new int[r][c];\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                arr[i][j]=sc.nextInt();\n            }\n        }\n        for(int i=0;i<r/2;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                int temp=arr[i][j];\n                arr[i][j]=arr[j][i];\n                arr[j][i]=temp;\n            }\n        }\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                System.out.print(arr[i][j]);\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Jerripotula Sreeja",
+	"candidate_email" : "sreejajerripotula@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:39:04.060638+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int n=sc.nextInt();\n        int m=sc.nextInt();\n        int []arr=new int[5];\n        int [][] matrix =new int[n][m];\n        for(int i=0;i<n;i++)\n        {\n            for(int j=0;j<m;j++)\n            {\n                matrix[i][j]=sc.nextInt();\n            }\n        }\n        int [][] ans=new int[m][n];\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n                \n                    ans[i][j]=matrix[j][i];\n              \n           \n            }\n        }\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n                System.out.print(ans[i][j]+\" \");\n            }\n            System.out.println(\"\");\n        }\n        \n    }\n}\n"
+}
+{
+	"candidate_name" : "chebrolu manoj",
+	"candidate_email" : "manojchebrolu72@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:41:31.002175+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int r=sc.nextInt();\n        int c=sc.nextInt();\n        int[][] arr=new int[r][c];\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                arr[i][j]=sc.nextInt();\n            }\n        }\n       int[][] temp=new int[c][r];\n       for(int i=0;i<r;i++)\n       {\n           for(int j=0;j<c;j++)\n           {\n               temp[j][i]=arr[i][j];\n           }\n       } \n       for(int i=0;i<temp.length;i++)\n       {\n           for(int j=0;j<temp[0].length;j++)\n           {\n               System.out.print(temp[i][j]);\n           }\n           System.out.println();\n       }\n    }\n}\n"
+}
+{
+	"candidate_name" : "chebrolu manoj",
+	"candidate_email" : "manojchebrolu72@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:42:31.554605+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int r=sc.nextInt();\n        int c=sc.nextInt();\n        int[][] arr=new int[r][c];\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                arr[i][j]=sc.nextInt();\n            }\n        }\n       int[][] temp=new int[c][r];\n       for(int i=0;i<r;i++)\n       {\n           for(int j=0;j<c;j++)\n           {\n               temp[i][j]=arr[j][i];\n           }\n       } \n       for(int i=0;i<temp.length;i++)\n       {\n           for(int j=0;j<temp[0].length;j++)\n           {\n               System.out.print(temp[i][j]+\" \");\n           }\n           System.out.println();\n       }\n    }\n}\n"
+}
+{
+	"candidate_name" : "chebrolu manoj",
+	"candidate_email" : "manojchebrolu72@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:43:07.064573+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int r=sc.nextInt();\n        int c=sc.nextInt();\n        int[][] arr=new int[r][c];\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                arr[i][j]=sc.nextInt();\n            }\n        }\n       int[][] temp=new int[c][r];\n       for(int i=0;i<r;i++)\n       {\n           for(int j=0;j<c;j++)\n           {\n               temp[j][i]=arr[i][j];\n           }\n       } \n       for(int i=0;i<temp.length;i++)\n       {\n           for(int j=0;j<temp[0].length;j++)\n           {\n               System.out.print(temp[i][j]+\" \");\n           }\n           System.out.println();\n       }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Chinipilli Yugandhar",
+	"candidate_email" : "yogiyugandhar7@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "cpp",
+	"submitted_at" : "2026-06-12T06:49:20.516515+00:00",
+	"code" : "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    ios::sync_with_stdio(false);\n    cin.tie(nullptr);\n    int n,m;\n    cin>>n>>m;\n    int a;\n    int mat[n][m];\n    for(int i=0;i<n;i++){\n        for(int j=0;j<m;j++){\n            cin>>a;\n            mat[i][j]=a;\n            }\n    }\n   for(int i=0;i<n;i++){\n        for(int j=0;j<m;j++){\n            cout<<mat[j][i]<<\" \";\n            }\n            cout<<endl;\n    }\n    // Write your solution here\n    return 0;\n}\n"
+}
+{
+	"candidate_name" : "Chinipilli Yugandhar",
+	"candidate_email" : "yogiyugandhar7@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "cpp",
+	"submitted_at" : "2026-06-12T06:50:01.461382+00:00",
+	"code" : "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    ios::sync_with_stdio(false);\n    cin.tie(nullptr);\n    int n,m;\n    cin>>n>>m;\n    int a;\n    int mat[n][m];\n    for(int i=0;i<n;i++){\n        for(int j=0;j<m;j++){\n            cin>>a;\n            mat[i][j]=a;\n            }\n    }\n    for(int j=0;j<m;j++){\n   for(int i=0;i<n;i++){\n        \n            cout<<mat[i][j]<<\" \";\n            }\n            cout<<endl;\n    }\n    // Write your solution here\n    return 0;\n}\n"
+}
+{
+	"candidate_name" : "Akula Aravind",
+	"candidate_email" : "aravindakula3353@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:52:41.741262+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        for(int i=0; i<m; i++){\n            for(int j=0; j<n; j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        int[][] result = new int[n][m];\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                result[i][j] = arr[j][i];\n            }\n        }\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                System.out.print(result[i][j] + \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Akula Aravind",
+	"candidate_email" : "aravindakula3353@gmail.com",
+	"score" : 15,
+	"passed_count" : 7,
+	"failed_count" : 0,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:54:41.505155+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        for(int i=0; i<m; i++){\n            for(int j=0; j<n; j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        int[][] result = new int[n][m];\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                result[i][j] = arr[j][i];\n            }\n        }\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                if((j + 1) != m)System.out.print(result[i][j] + \" \");\n                else System.out.print(result[i][j]);\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "chebrolu manoj",
+	"candidate_email" : "manojchebrolu72@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:55:37.120731+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int r=sc.nextInt();\n        int c=sc.nextInt();\n        int[][] arr=new int[r][c];\n        for(int i=0;i<r;i++)\n        {\n            for(int j=0;j<c;j++)\n            {\n                arr[i][j]=sc.nextInt();\n            }\n        }\n       int[][] temp=new int[c][r];\n       for(int i=0;i<r;i++)\n       {\n           for(int j=0;j<c;j++)\n           {\n               temp[j][i]=arr[i][j];\n           }\n       } \n       for(int i=0;i<temp.length;i++)\n       {\n           for(int j=0;j<temp[0].length;j++)\n           {\n               System.out.print(temp[i][j]+\" \");\n           }\n           System.out.println();\n       }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Vanamada Venkata Sai Kusuma",
+	"candidate_email" : "vvskusuma@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T06:58:52.017175+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int m=sc.nextInt();\n        int n=sc.nextInt();\n        int arr[][]=new int[m][n];\n        for(int i=0;i<m;i++){\n             for(int j=0;j<n;j++){\n            arr[i][j]=sc.nextInt();\n        }\n        }\n        \n            for(int j=0;j<n;j++){\n                for(int i=0;i<m;i++){\n                    //arr[i][j]=arr[j][i];\n                    System.out.print(arr[i][j]+\" \");\n        }\n        System.out.println(\" \");\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Akula Aravind",
+	"candidate_email" : "aravindakula3353@gmail.com",
+	"score" : 15,
+	"passed_count" : 7,
+	"failed_count" : 0,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:00:51.723155+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        for(int i=0; i<m; i++){\n            for(int j=0; j<n; j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        int[][] result = new int[n][m];\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                result[i][j] = arr[j][i];\n            }\n        }\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                if((j + 1) != m)System.out.print(result[i][j] + \" \");\n                else System.out.print(result[i][j]);\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Kondapalli Venkat",
+	"candidate_email" : "kondapallivenky2002@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:03:29.755467+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    b=data[2:]\n    a=int(data[0])\n    d=int(data[1])\n    f=[]\n    j=0\n    for i in range(a):\n        s=[]\n        while j<len(b):\n            s.append(int(b[j]))\n            j+=d\n        else:\n            j=i+1\n        f.append(s)\n    print(f)\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Chinipilli Yugandhar",
+	"candidate_email" : "yogiyugandhar7@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "cpp",
+	"submitted_at" : "2026-06-12T07:06:13.916321+00:00",
+	"code" : "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    ios::sync_with_stdio(false);\n    cin.tie(nullptr);\n    int n,m;\n    cin>>n>>m;\n    int a;\n    int mat[n][m];\n    for(int i=0;i<n;i++){\n        for(int j=0;j<m;j++){\n            cin>>a;\n            mat[i][j]=a;\n            }\n    }\n    for(int j=0;j<m;j++){\n   for(int i=0;i<n;i++){\n        \n            cout<<mat[i][j]<<\" \";\n            }\n            cout<<endl;\n    }\n    // Write your solution here\n    return 0;\n}\n"
+}
+{
+	"candidate_name" : "Kondapalli Venkat",
+	"candidate_email" : "kondapallivenky2002@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:07:52.402338+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    b=data[2:]\n    a=int(data[0])\n    d=int(data[1])\n    f=[]\n    j=0\n    for i in range(a):\n        s=[]\n        while j<len(b):\n            s.append(int(b[j]))\n            j+=d\n        else:\n            j=i+1\n        f.append(s)\n    for i in range(len(f)):\n        j=0\n        v=f[i]\n        while(j<len(v)):\n            print(v[j],end=\" \")\n            j+=1\n        print()\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Konchada Bhuvan",
+	"candidate_email" : "bhuvankonchada@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:16:53.222485+00:00",
+	"code" : "import sys\n\ndef solve():\n    \n    # Write your solution here\n    li=list(map(int,input().split(' ')))\n    m,n=li[0],li[1]\n    matrix=[]\n    for i in range(m):\n        matrix.append(list(map(int,input().split())))\n    \n    ans=[]\n    for i in range(m):\n        l=[0]*n\n        ans.append(l)\n    \n    for i in range(m):\n        for j in range(n):\n            ans[i][j]=matrix[j][i]\n    print(ans)\n\n    \n              \n    \n    \nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Konchada Bhuvan",
+	"candidate_email" : "bhuvankonchada@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:17:30.388257+00:00",
+	"code" : "import sys\n\ndef solve():\n    \n    # Write your solution here\n    li=list(map(int,input().split(' ')))\n    m,n=li[0],li[1]\n    matrix=[]\n    for i in range(m):\n        matrix.append(list(map(int,input().split())))\n    \n    ans=[]\n    for i in range(m):\n        l=[0]*n\n        ans.append(l)\n    \n    for i in range(m):\n        for j in range(n):\n            ans[i][j]=matrix[j][i]\n    for i in ans:\n        print(i)\n\n    \n              \n    \n    \nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Lokesh",
+	"candidate_email" : "chlokesh365@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:17:57.676757+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    rows=int(data[0])\n    cols=int(data[1])\n    arr=[]\n    trans=[]\n    i=2\n    for j in range(rows):\n        dum=[]\n        d_t=[]\n        for k in range(cols):\n            d_t.append(-1)\n            dum.append(int(data[i]))\n            i+=1\n        trans.append(d_t)\n        arr.append(dum)\n    for i in range(rows):\n        for j in range(cols):\n            trans[i][j]=arr[j][i]\n    for i in range(rows):\n        for j in range(cols):\n            print(trans[i][j],end=\" \")\n        print()\n        \nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Lokesh",
+	"candidate_email" : "chlokesh365@gmail.com",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:22:22.309554+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    rows=int(data[0])\n    cols=int(data[1])\n    arr=[]\n    i=2\n    for j in range(rows):\n        dum=[]\n        for k in range(cols):\n            dum.append(int(data[i]))\n            i+=1\n        arr.append(dum)\n        \n    def transpose_matrix(matrix):\n        m, n = len(matrix), len(matrix[0])\n    \n        transposed_matrix = [[0] * m for _ in range(n)]\n    \n        for i in range(m):\n            for j in range(n):\n                transposed_matrix[j][i] = matrix[i][j]\n    \n        return transposed_matrix\n    \n    transpose=transpose_matrix(arr)\n    for i in range(rows):\n        for j in range(cols):\n            print(transpose[i][j],end=\" \")\n        print()\n\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Vallem Gopi",
+	"candidate_email" : "vallemgopi0510@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:26:58.767800+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    arr=list(list(map,int(input).split()))\n    n=len(x)\n    for i in range(0,n):\n        for j in range(0,n):\n            if arr[i][j]=arr[j][i]:\n                arr[j][i]=arr[i][j]\n        for k in range(arr[i][j],n):\n            print(arr)\n             \nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Lokesh",
+	"candidate_email" : "chlokesh365@gmail.com",
+	"score" : 6,
+	"passed_count" : 3,
+	"failed_count" : 4,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:27:07.190952+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    rows=int(data[0])\n    cols=int(data[1])\n    arr=[]\n    i=2\n    for j in range(rows):\n        dum=[]\n        for k in range(cols):\n            dum.append(int(data[i]))\n            i+=1\n        arr.append(dum)\n        \n    def transpose_matrix(matrix):\n        m, n = len(matrix), len(matrix[0])\n    \n        transposed_matrix = [[0] * m for _ in range(n)]\n    \n        for i in range(m):\n            for j in range(n):\n                transposed_matrix[j][i] = matrix[i][j]\n    \n        return transposed_matrix\n    \n    transpose=transpose_matrix(arr)\n    for i in range(rows):\n        sent=\"\"\n        for j in range(cols):\n            sent+=str(transpose[i][j])\n            sent+=\" \"\n        print(sent[:len(sent)-1])\n\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "KARRI SATYA LAXMI NARASIMHA MURTHY",
+	"candidate_email" : "k.sathyam2003@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:27:51.317843+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n    }\n}\n"
+}
+{
+	"candidate_name" : "Akula Aravind",
+	"candidate_email" : "aravindakula3353@gmail.com",
+	"score" : 15,
+	"passed_count" : 7,
+	"failed_count" : 0,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:28:37.027954+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        for(int i=0; i<m; i++){\n            for(int j=0; j<n; j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        int[][] result = new int[n][m];\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                result[i][j] = arr[j][i];\n            }\n        }\n        for(int i=0; i<n; i++){\n            for(int j=0; j<m; j++){\n                if((j + 1) != m)System.out.print(result[i][j] + \" \");\n                else System.out.print(result[i][j]);\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Jerripotula Sreeja",
+	"candidate_email" : "sreejajerripotula@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:28:56.839291+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int n=sc.nextInt();\n        int m=sc.nextInt();\n        int []arr=new int[5];\n        int [][] matrix =new int[n][m];\n        for(int i=0;i<n;i++)\n        {\n            for(int j=0;j<m;j++)\n            {\n                matrix[i][j]=sc.nextInt();\n            }\n        }\n        int [][] ans=new int[m][n];\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n               ans[i][j]=matrix[j][i];\n             }\n        }\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n                System.out.print(ans[i][j]+\" \");\n            }\n            System.out.println(\"\");\n        }\n        \n    }\n}\n"
+}
+{
+	"candidate_name" : "Kothakota Dinesh Bharadwaj",
+	"candidate_email" : "dineshbharat2004@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:30:59.269436+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        int m=sc.nextInt();\n        int n=sc.nextInt();\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                int temp=arr[i][j];\n                arr[i][j]=arr[j][i];\n                arr[j][i]=temp;\n  \n            }\n        }\n        \n        // Write your solution here\n        return arr;\n    }\n}\n"
+}
+{
+	"candidate_name" : "Jerripotula Sreeja",
+	"candidate_email" : "sreejajerripotula@gmail.com",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:33:47.904576+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int n=sc.nextInt();\n        int m=sc.nextInt();\n        int []arr=new int[5];\n        int [][] matrix =new int[n][m];\n        for(int i=0;i<n;i++)\n        {\n            for(int j=0;j<m;j++)\n            {\n                matrix[i][j]=sc.nextInt();\n            }\n        }\n        int [][] ans=new int[m][n];\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n               ans[i][j]=matrix[j][i];\n             }\n        }\n        for(int i=0;i<m;i++)\n        {\n            for(int j=0;j<n;j++)\n            {\n                System.out.print(ans[i][j]+\" \");\n            }\n            System.out.println(\"\");\n        }\n        \n    }\n}\n"
+}
+{
+	"candidate_name" : "Bandi Venkata Sai Lohit",
+	"candidate_email" : "bandisailohit@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:35:52.558134+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    for i in range(n):\n        \n        \n   \n    \n    \n    \n                \n    \n               \n                \n    # Write your solution here\n\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Rahul Varma Addala",
+	"candidate_email" : "rahulvarmaaddala33@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:36:30.730290+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "saiteja lalam",
+	"candidate_email" : "lalamsaiteja.22.cse@anits.edu.in",
+	"score" : 2,
+	"passed_count" : 1,
+	"failed_count" : 6,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:36:55.670833+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        int[][] newarr = new int[n][m];\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                newarr[i][j] = arr[j][i];\n            }\n        }\n        for(int i=0;i<newarr.length;i++){\n            for(int j=0;j<newarr[i].length;j++){\n                System.out.print(newarr[i][j]+ \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Kasinadhuni Saratchandra Srikar",
+	"candidate_email" : "srikarks8105@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:37:10.233269+00:00",
+	"code" : "import sys\n\ndef solve():\n    #data = sys.stdin.read().strip().split()\n    # Write your solution here\n    \n\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "Rajana Revathi Devi",
+	"candidate_email" : "rajanarevathidevi2006@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:37:11.208118+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        \n    }\n}\n"
+}
+{
+	"candidate_name" : "chiru babu",
+	"candidate_email" : "chiruman455@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:37:17.440458+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        \n    }\n}\n"
+}
+{
+	"candidate_name" : "Bandi Venkata Sai Lokesh",
+	"candidate_email" : "bandivenkatasailokesh@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:37:29.756314+00:00",
+	"code" : "import sys\n\ndef solve():\n    data = sys.stdin.read().strip().split()\n    # Write your solution here\n    a=data[0].readline()\n    b=data[1].readlines()\n    for i in range(a):\n        for j in range(t):\n            if i!=j:\n               b[i][j],b[j][i]=b[j][i],b[i][j]\n    print(b)\n                \n    \n\nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "saiteja lalam",
+	"candidate_email" : "lalamsaiteja.22.cse@anits.edu.in",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T07:37:59.922686+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        int[][] newarr = new int[n][m];\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                newarr[j][i] = arr[i][j];\n            }\n        }\n        for(int i=0;i<newarr.length;i++){\n            for(int j=0;j<newarr[i].length;j++){\n                System.out.print(newarr[i][j]+ \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "Konchada Bhuvan",
+	"candidate_email" : "bhuvankonchada@gmail.com",
+	"score" : 0,
+	"passed_count" : 0,
+	"failed_count" : 7,
+	"language" : "python",
+	"submitted_at" : "2026-06-12T07:43:20.229621+00:00",
+	"code" : "import sys\n\ndef solve():\n    \n    # Write your solution here\n    li=list(map(int,input().split(' ')))\n    m,n=li[0],li[1]\n    matrix=[]\n    for i in range(m):\n        matrix.append(list(map(int,input().split())))\n    \n    ans=[]\n    for i in range(m):\n        l=[0]*n\n        ans.append(l)\n    \n    for i in range(m):\n        for j in range(n):\n            ans[i][j]=matrix[j][i]\n    for i in ans:\n        print(i)\n\n    \n              \n    \n    \nif __name__ == \"__main__\":\n    solve()\n"
+}
+{
+	"candidate_name" : "saiteja lalam",
+	"candidate_email" : "lalamsaiteja.22.cse@anits.edu.in",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T08:12:13.477723+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        int[][] newarr = new int[n][m];\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        for(int i=0;i<newarr.length;i++){\n            for(int j=0;j<newarr[i].length;j++){\n                newarr[i][j] = arr[j][i];\n            }\n        }\n        for(int i=0;i<newarr.length;i++){\n            for(int j=0;j<newarr[i].length;j++){\n                System.out.print(newarr[i][j]+ \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}
+{
+	"candidate_name" : "saiteja lalam",
+	"candidate_email" : "lalamsaiteja.22.cse@anits.edu.in",
+	"score" : 4,
+	"passed_count" : 2,
+	"failed_count" : 5,
+	"language" : "java",
+	"submitted_at" : "2026-06-12T08:13:51.767429+00:00",
+	"code" : "import java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) throws Exception {\n        Scanner sc = new Scanner(System.in);\n        // Write your solution here\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] arr = new int[m][n];\n        int[][] newarr = new int[n][m];\n        for(int i=0;i<m;i++){\n            for(int j=0;j<n;j++){\n                arr[i][j] = sc.nextInt();\n            }\n        }\n        for(int i=0;i<arr.length;i++){\n            for(int j=0;j<arr[i].length;j++){\n                newarr[j][i] = arr[i][j];\n            }\n        }\n        for(int i=0;i<newarr.length;i++){\n            for(int j=0;j<newarr[i].length;j++){\n                System.out.print(newarr[i][j]+ \" \");\n            }\n            System.out.println();\n        }\n    }\n}\n"
+}

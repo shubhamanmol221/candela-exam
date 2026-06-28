@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: candelacoad-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB
+        value: codeassess
+      - key: JWT_SECRET
+        sync: false
+      - key: CANDIDATE_RESUME_PASSWORD
+        sync: false

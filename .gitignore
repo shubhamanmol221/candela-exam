@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+.vscode/
+backend/venv/
+backend/.venv/
+__pycache__/
+*.pyc
+*:Zone.Identifier
+.local-tools/
+.python-stdlib/
+.uv-cache/
+downloads/
+data/
+logs/
